@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import fetch from 'isomorphic-unfetch'
 
-import Layout from '../components/Layout';
+import Layout from '../components/layout';
 
 
 const Index = props => {
