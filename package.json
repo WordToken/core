@@ -13,18 +13,29 @@
   "license": "ISC",
   "dependencies": {
     "@material-ui/core": "^4.9.5",
+    "@material-ui/icons": "^4.9.1",
     "@types/react": "^16.9.36",
     "@types/styled-components": "^5.1.0",
+    "classnames": "^2.2.6",
     "dotenv": "^8.2.0",
     "isomorphic-unfetch": "^3.0.0",
     "moment": "^2.24.0",
     "next": "^9.4.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "styled-components": "^5.0.1"
+    "styled-components": "^5.0.1",
+    "typeface-merriweather": "^0.0.72",
+    "typeface-montserrat": "^0.0.75",
+    "typography": "^0.16.19"
   },
   "devDependencies": {
     "@types/node": "^14.0.13",
+    "babel-plugin-styled-components": "^1.10.7",
+    "eslint": "^6.8.0",
+    "eslint-config-react-app": "^5.2.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.19.0",
+    "prettier": "^1.19.1",
     "typescript": "^3.9.5"
   }
 }

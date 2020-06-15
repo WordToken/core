@@ -2,7 +2,9 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@/src/components/*": ["src/components/*"]
+      "@app/src/*" : ["src/*"],
+      "@public/*" : ["public/*"],
+      "@components/*": ["src/components/*"]
     },
     "target": "es5",
     "lib": [
