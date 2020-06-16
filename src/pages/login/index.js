@@ -92,7 +92,7 @@ const Login = () => {
                         Sign In
                     </Button>
                 </FormWrapper>
-                <Typography className="signup-link">Don't have an account? <a href="">Sign up</a></Typography>
+                <Typography className="signup-link">Don't have an account? <Link href="/register">Sign up</Link></Typography>
             </SectionWrapper>)
 }
 
@@ -114,6 +114,10 @@ const SectionWrapper =  styled.div`
 
     .signup-link {
         margin-top: 30px;
+
+        a {
+            text-decoration: none;
+        }
     }
 `
 
