@@ -4,7 +4,7 @@ import Layout from '@components/Layout'
 import Content from '@components/Content'
 
 function DashboardIndex({  location }) {
-	const title = "WordToken | Dashboard"
+	const title = "Dashboard"
 
 	return (
 		<Layout location={location} title={title}>

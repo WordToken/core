@@ -19,7 +19,9 @@ import SettingsInputComponentIcon from '@material-ui/icons/SettingsInputComponen
 import TimerIcon from '@material-ui/icons/Timer'
 import SettingsIcon from '@material-ui/icons/Settings'
 import PhonelinkSetupIcon from '@material-ui/icons/PhonelinkSetup'
+
 import Logo from '@components/Logo'
+
 const categories = [
 	{
 		id: 'Develop',
@@ -97,7 +99,6 @@ function Navigator({ classes, location = null, ...rest }) {
 						<Grid item>
 							<Logo />
 						</Grid>
-						<Grid item>Paperbase</Grid>
 					</Grid>
 				</ListItem>
 
