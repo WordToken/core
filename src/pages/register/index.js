@@ -70,7 +70,7 @@ const Register = () => {
                         Create account
                     </Button>
                 </FormWrapper>
-                <Typography className="sign-in-cta">Have an account? <Link href="/login">Sign in</Link></Typography>
+                <Typography className="sign-up-cta">Have an account? <Link href="/login">Sign in</Link></Typography>
             </SectionWrapper>)
 }
 
@@ -90,8 +90,12 @@ const SectionWrapper =  styled.div`
     }
 
 
-    .sign-in-cta {
+    .sign-up-cta {
         margin-top: 30px;
+
+        a {
+            text-decoration: none;
+        }
     }
 `
 
